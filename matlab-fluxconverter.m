@@ -1,5 +1,6 @@
 % matlab code that converts .flux files to .xlsx files
 % opens a window that allows the user to select one or multiple .flux files for conversion
+% note that this version is not preferred given matlab is not free
 
 % file selection window
 [file,path] = uigetfile('*.flux','MultiSelect','on');
