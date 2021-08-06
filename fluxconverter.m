@@ -1,7 +1,6 @@
 % octave code that converts .flux files to .csv files
 % opens a window that allows the user to select one or multiple .flux files for conversion
-% this is the preferred version of the software given that octave is free
-% (note that file conversion may take up to a couple minutes if a large amount of files are selected)
+% this is the preferred version of the code given that octave is free
 
 % file selection window
 [file,path] = uigetfile('*.flux','MultiSelect','on');
